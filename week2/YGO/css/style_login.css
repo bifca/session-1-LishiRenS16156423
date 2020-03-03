@@ -1,0 +1,60 @@
+body
+{
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.7;
+  color: black;
+  text-align: center;
+}
+label{
+font-weight:bold;
+width:100px;
+font-size:14px;
+}
+.box
+{
+border:#666666 solid 2px;
+border-radius: 30px;
+text-align:center;
+}
+.overlay{
+    z-index: -1;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0);
+}
+.button{
+  background: #555555;
+  border:#000;
+  border-radius: 30px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 8px;
+  padding-top: 8px;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer !important;
+
+}
+button{
+	cursor: pointer;
+}
+
+.login{
+	padding-top: 100px;
+}
+
+.register{
+  display: inline-block;
+  text-align: center;
+  color: black;  
+}
+.homepage{
+	display: inline-block;
+  text-align: center;
+  color: black;  
+}
